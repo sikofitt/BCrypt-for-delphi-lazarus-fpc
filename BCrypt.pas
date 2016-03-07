@@ -8,6 +8,7 @@ uses
   Classes, SysUtils, RegExpr;
 
 function checkPassword(const Str: string; const Hash: ansistring): boolean;
+function HashPassword(const Str: string; const Hash: ansistring): boolean;
 
 implementation
 
